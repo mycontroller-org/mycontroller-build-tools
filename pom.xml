@@ -9,7 +9,7 @@
   <packaging>pom</packaging>
 
   <name>Mycontroller Build Tools Parent</name>
-  <description>Contains build tools for Mycontroller projects</description>
+  <description>Contains build tools for MyController projects</description>
   <url>https://github.com/mycontroller/mycontroller-build-tools</url>
   
   <licenses>
