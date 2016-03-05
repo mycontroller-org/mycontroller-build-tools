@@ -1,0 +1,20 @@
+= MyController Build Tools
+
+ifdef::env-github[]
+[link=https://travis-ci.org/mycontroller/mycontroller]
+image:https://travis-ci.org/mycontroller/mycontroller.svg["Build Status", link="https://travis-ci.org/mycontroller/mycontroller"]
+endif::[]
+
+Contains resources used during the build of other MyController projects:
+
+* The configuration for Checkstyle in `src/main/resources/mycontroller-checkstyle` directory.
+* `org.mycontroller.build.checkstyle.xml.XmlIndentCheck` - an extension for Checkstyle to enforce indentation in XML files.
+* A license header template to be used by com.mycila:license-maven-plugin in
+  `src/main/resources/mycontroller-license/mycontroller-apache-2-template.txt`.
+* `org.mycontroller.build.license.CopyrightRangeProvider` - an extension of license-maven-plugin to set copyright years
+   range based on git history.
+* IDE configuration files - import these in your IDE so your IDE can format files according to MyController style rules.
+** `ide-configs/eclipse` - Eclipse preferences for code style. The names of the files
+                        in here indicates where you should import these files.
+                        e.g, mycontroller-eclipse-preferences-java-codestyle-cleanup.xml
+                        should be imported in Preferences > Java > Code Style > Cleanup.
