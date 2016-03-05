@@ -1,10 +1,5 @@
 = MyController Build Tools
 
-ifdef::env-github[]
-[link=https://travis-ci.org/mycontroller/mycontroller]
-image:https://travis-ci.org/mycontroller/mycontroller.svg["Build Status", link="https://travis-ci.org/mycontroller/mycontroller"]
-endif::[]
-
 Contains resources used during the build of other MyController projects:
 
 * The configuration for Checkstyle in `src/main/resources/mycontroller-checkstyle` directory.
