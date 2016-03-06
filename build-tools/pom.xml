@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.mycontroller</groupId>
     <artifactId>mycontroller-build-tools-parent</artifactId>
-    <version>1-SNAPSHOT</version>
+    <version>1</version>
   </parent>
 
   <artifactId>mycontroller-build-tools</artifactId>
